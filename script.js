@@ -2,7 +2,7 @@
    WhatsApp number in international format, digits only.
    Egypt: 20 + the number without its leading 0.
    Example: 01012345678  ->  "201012345678"                      */
-const WHATSAPP_NUMBER = "01206617687";
+const WHATSAPP_NUMBER = "201206617687";
 
 /* ===== 1. Apply the number to every WhatsApp / phone link ===== */
 document.querySelectorAll('[data-wa]').forEach((a) => {
